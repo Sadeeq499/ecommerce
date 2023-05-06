@@ -7,7 +7,7 @@ function SearchInput() {
   const Navigate = useNavigate();
   const [query, setQuery] = useQuery();
   const { keyword } = query;
-  // Something change
+  // Something change12
   const handleSearch = (e) => {
     e.preventDefault();
     const URL = process.env.REACT_APP_API_URL;
